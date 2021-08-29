@@ -1,0 +1,21 @@
+{
+    "data": {
+        "id": 153669353,
+        "url": "Rezbaevdv",
+        "bio": null,
+        "avatar": "https://imgur.com/user/Rezbaevdv/avatar?maxwidth=290",
+        "avatar_name": "default/R",
+        "cover": "https://imgur.com/user/Rezbaevdv/cover?maxwidth=2560",
+        "cover_name": "default/1-space",
+        "reputation": -6,
+        "reputation_name": "Neutral",
+        "created": 1629621089,
+        "pro_expiration": false,
+        "user_follow": {
+            "status": false
+        },
+        "is_blocked": false
+    },
+    "success": true,
+    "status": 200
+}
