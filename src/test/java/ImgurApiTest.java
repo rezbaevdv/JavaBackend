@@ -37,7 +37,7 @@ class ImgurApiTest extends BaseApiTest {
         }
     @Test
 
-        @Order(1)
+        @Order(1) //TODO Не могу определить последовательность выполнения тестов, поэтому не верно работают Переменные №1, №2
         @DisplayName("Получение информации об аккаунте")
         void testGetAccountBase() {
 
@@ -93,7 +93,7 @@ class ImgurApiTest extends BaseApiTest {
                     .log()
                     .all()
                     .when()
-                    .get("comment/{commentId}", commentId)
+                    .get("comment/{commentId}", commentId) // TODO №1
                     .jsonPath();
         }
     @Test
@@ -179,7 +179,7 @@ class ImgurApiTest extends BaseApiTest {
                     .log()
                     .all()
                     .when()
-                    .get("3/album/{albumHash}", currentDeleteHashAlbum)
+                    .get("3/album/{albumHash}", currentDeleteHashAlbum)// TODO №1
                     .jsonPath();
         }
 }
